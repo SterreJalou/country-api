@@ -1,0 +1,140 @@
+@import "https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Roboto+Condensed:wght@300&display=swap";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Condensed, sans-serif;
+  display: flex;
+}
+
+img, picture, video, canvas, svg {
+  max-width: 100%;
+  display: block;
+}
+
+.blue {
+  color: #00f;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: #ff0;
+}
+
+.purple {
+  color: purple;
+}
+
+.white {
+  color: #000;
+}
+
+.content-frame {
+  column-count: 3;
+  max-width: 1000px;
+  background-color: #fafafa;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  padding: 30px;
+  list-style-type: none;
+}
+
+.flag {
+  width: 20px;
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+
+.population {
+  margin: 0 0 12px;
+  font-size: 10px;
+}
+
+h1 {
+  font-family: Gochi Hand, cursive;
+  font-size: 46px;
+}
+
+.world-gif {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+#search-form {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.inputform {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+.button {
+  text-transform: uppercase;
+  background-color: #9acd32;
+  border: 1px solid #9acd32;
+  border-radius: 0 6px 6px 0;
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+#search-results {
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  display: flex;
+}
+
+.result {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 6px;
+  margin-block: 60px 40px;
+  padding: 20px 30px;
+  box-shadow: 0 2px 12px #00000026;
+}
+
+.result p:last-of-type {
+  margin-bottom: 0;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+}
+
+.title img {
+  width: auto;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.title h2 {
+  margin: 0;
+  font-family: Gochi Hand, cursive;
+  font-size: 28px;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
